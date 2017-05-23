@@ -18,7 +18,7 @@ public class CourseServiceImpl implements CourseService {
 
         course.setCourseId(courseId);
         course.setTitle("springMVC笔记系列");
-        course.setImgPath("resources/imgs/course-img.jpg");
+        course.setImgPath("/imgs/3.jpg");
         course.setLearningNum(12345);
         course.setLevel(2);
         course.setLevelDesc("中级");
